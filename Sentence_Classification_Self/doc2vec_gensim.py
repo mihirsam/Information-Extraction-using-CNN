@@ -7,8 +7,8 @@ def doc2vecs(data):
     
     
     # training our model
-    max_epochs = 100
-    vec_size = 20
+    max_epochs = 1000
+    vec_size = 100
     alpha = 0.025
 
     model = Doc2Vec(vector_size=vec_size,
