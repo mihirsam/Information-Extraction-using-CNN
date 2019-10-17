@@ -27,4 +27,4 @@ It is expected that we can reach our goal with considerable results using CNN th
 
 ## Referrences
 - [Convolutional Neural Networks for Text Classification by David S. Batista](http://www.davidsbatista.net/blog/2018/03/31/SentenceClassificationConvNets/)
-- Convolutional Neural Networks for Sentence Classification by Yoon Kim
+- [Convolutional Neural Networks for Sentence Classification by Yoon Kim](https://www.aclweb.org/anthology/D14-1181.pdf)
