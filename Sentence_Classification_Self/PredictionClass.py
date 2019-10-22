@@ -3,6 +3,8 @@ from doc2vec_gensim import doc2vecs
 from LineSplit import LineSplit
 
 name = input("Enter path to txt file : ")
+limit = int(input("Enter summary percentage: "))
+            
 data = LineSplit(name)
 doc2vecs(data)
 
@@ -55,19 +57,25 @@ for res in range(len(classes)):
         mass_slaughter.append(data[res])
         
 Final = [abstract,
-        advancements,
+        europe,
         asia,
+        events,
+        mass_slaughter,
         aftermath,
         casualities,
-        europe,
-        events,
-        mass_slaughter]
+        advancements]
 
 Summary = []
 
 for lis in Final:
-    for i in range(0, int(len(lis)/2)):
-        Summary.append(lis[i])
+    if len(lis) != 0:
+        for i in range(0, int(len(lis) * (limit/100))+1):
+            Summary.append(lis[i] + ". ")
         
+file = open('./summary.txt', 'w+', encoding='utf-8')
+
 for line in Summary:
-    print(line)
+    file.write(line)
+file.close()
+
+print("\nSummary has been saved in 'summary.txt'")
