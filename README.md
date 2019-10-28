@@ -9,16 +9,34 @@ It is expected that we can reach our goal with considerable results using CNN th
 ## Programming Language
 > Python 3.6
 
-## Tools and Library
+## Prerequisites
+* pip
+```sh
+sudo apt install python3-pip
+```
+* gensim
+```sh
+pip install gensim
+```
+* nltk
+```sh
+pip install nltk
+```
+* numpy
+```sh
+pip install numpy
+```
+* tensorflow
+```sh
+pip install tensorflow
+```
+* keras
+```sh
+pip install Keras
+```
+## IDE Used:
 - Jupyter Notebook
-- re
-- gensim
-- nltk
-- numpy
-- tensorflow
-- keras
-- os
-- sys
+
 
 ## Authors
 - Chandni Agarwal
