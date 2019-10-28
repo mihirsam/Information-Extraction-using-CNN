@@ -20,7 +20,7 @@
     <a href="https://github.com/mihirsam/Information-Extraction-using-CNN"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/mihirsam/Information-Extraction-using-CNN">View Demo</a>
+    <a href="#installation">View Demo</a>
     ·
     <a href="https://github.com/mihirsam/Information-Extraction-using-CNN/issues">Report Bug</a>
     ·
