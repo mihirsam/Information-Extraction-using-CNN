@@ -1,4 +1,4 @@
 import random
 
 def ran(limit):
-    print(random(0, limit))
+    print(random.randint(0, limit))
