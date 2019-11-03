@@ -85,7 +85,7 @@ git clone https://github.com/mihirsam/Information-Extraction-using-CNN.git
 ```
 
 ## Contributor
-- [Mihir](https://github.com/mihir)
+- [Mihir](https://github.com/mihirsam)
 - Chandni Agarwal
 - [Sweta Agarwal](https://github.com/sweta96)
 
