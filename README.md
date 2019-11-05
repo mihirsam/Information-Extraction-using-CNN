@@ -20,7 +20,7 @@
     <a href="https://github.com/mihirsam/Information-Extraction-using-CNN"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="http://18.220.55.138/">View Demo</a>
+    <a href="https://www.theminiproject.co/">View Demo</a>
     ·
     <a href="https://github.com/mihirsam/Information-Extraction-using-CNN/issues">Report Bug</a>
     ·
