@@ -25,4 +25,4 @@ canFinal += canList
 refFinal += refList
 
 score = sentence_bleu([refFinal], canFinal)
-print("BLEU score: ")
+print("BLEU score: ", score)
