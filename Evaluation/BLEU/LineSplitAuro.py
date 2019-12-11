@@ -8,8 +8,21 @@ def LineSplit(filename):
     # replacing U.S. with US and spliting lines
     cleaned_data = []
 
-    for line in data_lines:
-            cleaned_data.append(line.replace('U.S.', 'US'))
+    for l in range(len(data_lines)):
+        flag = 0
+        for i in range(len(data_lines[l])):
+            try:
+                if flag == 0 and data_lines[l][i] == "“":
+                    flag = 1
+                elif flag == 1 and data_lines[l][i] == "”":
+                    flag = 0
+
+                if flag == 1 and data_lines[l][i] == '.':
+                    data_lines[l] = data_lines[l][0:i] + "$" + data_lines[l][i+1:]
+            except:
+                print(data_lines[l])
+                break
+        cleaned_data.append(data_lines[l])
 
     lis = []
 
@@ -25,8 +38,7 @@ def LineSplit(filename):
                 line = line[1:]
             line = re.sub(r'\[.*?\]', "", line)
 
-            if line != '\n' and line != '' and len(line) > 1:
+            if line != '\n':
                 cleaned_data.append(line)
 
-    # printing each line of cleaned_data
     return cleaned_data
